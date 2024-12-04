@@ -357,8 +357,8 @@ h3 {
   color: var(--white);
   letter-spacing: .4px;
   align-self: start;
+  font-family: Atipland;
   margin-top: 0;
-  font-family: Inter;
   line-height: 150%;
 }
 
