@@ -708,7 +708,7 @@ h3 {
   letter-spacing: .125em;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0;
   padding-bottom: 4px;
   font-family: Space Mono, sans-serif;
   font-size: 12px;
@@ -720,7 +720,7 @@ h3 {
   color: var(--white);
   text-wrap: pretty;
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   font-family: Atipland, sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -758,7 +758,7 @@ h3 {
   text-wrap: pretty;
   font-smooth: always;
   font-feature-settings: "cv05" on;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   font-family: Inter Variable, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 300;
