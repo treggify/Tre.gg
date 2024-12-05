@@ -357,8 +357,9 @@ h3 {
   color: var(--white);
   letter-spacing: .4px;
   align-self: start;
-  font-family: Atipland;
   margin-top: 0;
+  font-family: Atipland, sans-serif;
+  font-size: 16px;
   line-height: 150%;
 }
 
@@ -1595,6 +1596,7 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .portfolioitem {
     height: 50vh;
+    margin-bottom: 32px;
   }
 
   .portfolioitem.candid {
@@ -1613,8 +1615,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     margin-top: 0;
   }
 
+  .projectdate {
+    margin-bottom: 0;
+  }
+
   .projectheader {
     width: 100%;
+    margin-bottom: 0;
     font-size: 48px;
   }
 
@@ -1725,8 +1732,10 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .navbar {
-    justify-content: flex-start;
-    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
     position: absolute;
   }
 
@@ -1780,11 +1789,14 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .body {
+    padding-bottom: 8px;
     padding-left: 8px;
     padding-right: 8px;
   }
 
   .nav-container {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     height: 48px;
     margin-bottom: 32px;
     padding-left: 0;
@@ -1793,9 +1805,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .navmenu {
     z-index: 2;
-    justify-content: space-between;
+    flex-flow: row;
+    place-content: center space-between;
     align-items: center;
-    padding: 22px 8px 8px;
+    width: 120%;
+    height: auto;
+    min-height: 56px;
+    padding: 22px 24px 8px;
   }
 
   .fullimage.about {
@@ -1823,13 +1839,14 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     font-size: 24px;
   }
 
-  .bodylink.headerlink {
-    font-size: 26px;
+  .heading-2.home, .bodylink.headerlink {
+    font-size: 20px;
   }
 
   .footer {
     border-radius: 40px;
     width: 100%;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 16px;
@@ -1840,6 +1857,7 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     height: 240px;
     min-height: 240px;
     max-height: 240px;
+    margin-bottom: 24px;
   }
 
   .primarybutton {
@@ -1856,6 +1874,8 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .bodyfixed.firstpar {
     margin-bottom: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .bodyfixed.firstpar.callout.alt {
@@ -1870,8 +1890,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     padding: 24px;
   }
 
+  .projectdate {
+    margin-bottom: 0;
+  }
+
   .projectheader {
     width: 100%;
+    margin-bottom: 0;
     font-size: 32px;
   }
 
@@ -1930,7 +1955,9 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   .patternbg {
     border-radius: 40px;
     min-height: 640px;
-    padding-top: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 40px 40px 0;
   }
 
   .contentwrap {
@@ -1966,8 +1993,9 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .ticks {
-    margin-left: 32px;
-    margin-right: 32px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     padding-left: 0;
     padding-right: 0;
   }
