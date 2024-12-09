@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/401.html"
+  status = 401
+  force = false
+
+[build]
+  command = "sed 's/SITE_PASSWORD/'\"$SITE_PASSWORD\"'/' _headers.template > _headers" 
+  
