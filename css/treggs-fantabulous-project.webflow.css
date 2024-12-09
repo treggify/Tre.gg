@@ -577,7 +577,6 @@ h3 {
   background-color: var(--roman-10);
   color: var(--white);
   justify-content: center;
-  width: 256px;
   margin-top: 0;
   margin-left: 0;
   margin-right: auto;
@@ -593,6 +592,10 @@ h3 {
 .primarybutton.projectcta.centered {
   margin-left: auto;
   margin-right: auto;
+}
+
+.primarybutton.projectcta.fullwidth {
+  min-height: 48px;
 }
 
 .bodyfixed {
@@ -807,22 +810,22 @@ h3 {
 
 .text-field {
   border: 1px solid var(--dark-slate-green);
-  color: var(--white);
-  background-color: #121212;
-  border-radius: 20px;
-  width: 100%;
+  background-color: var(--black-2);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 16px;
   height: 48px;
-  margin-top: 16px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 12px;
   padding: 16px;
-  font-family: Inter;
-  font-size: 16px;
+  font-family: Space Mono, sans-serif;
   line-height: 24px;
   transition: all .2s;
 }
 
 .text-field:focus {
-  border-color: var(--dark-sea-green);
+  border-color: var(--roman);
+  color: #fff;
 }
 
 .form {
@@ -1047,10 +1050,12 @@ h3 {
 
 .heading-6.error {
   color: var(--white);
-  font-family: Powergrotesk, sans-serif;
-  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Atipland, sans-serif;
+  font-size: 32px;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 110%;
 }
 
 .passwordprotec {
@@ -1070,19 +1075,27 @@ h3 {
 }
 
 .form2 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
   border: 1px solid var(--dark-slate-green);
   background-color: var(--black-2);
   box-shadow: 0 8px 12px -8px var(--34-black);
-  background-image: url('../images/noisebg.png');
-  background-position: 0 0;
-  background-size: 400%;
+  background-image: url('../images/mast-1.png');
+  background-position: 50%;
+  background-size: cover;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   width: 460px;
-  padding: 32px;
+  padding: 0 32px 32px;
+  transition: all .8s ease-in-out;
   display: flex;
+}
+
+.form2:hover {
+  border-color: var(--roman);
+  box-shadow: 0 0 32px -12px var(--dark-dark-blue);
 }
 
 .patternbg {
@@ -1405,6 +1418,11 @@ h3 {
   display: flex;
 }
 
+.headerwrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 html.w-mod-js [data-ix="load-in"], html.w-mod-js [data-ix="scroll-in"] {
   opacity: 0;
   transform: translate(0, 32px);
@@ -1656,6 +1674,7 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .patternbg {
     width: 100%;
+    height: 100%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1713,6 +1732,15 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .section-header, .footerblock {
     width: 100%;
+  }
+
+  .headerwrapper {
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
   }
 }
 
@@ -1954,6 +1982,7 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .patternbg {
     border-radius: 40px;
+    height: 100%;
     min-height: 640px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -1998,6 +2027,15 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .headerwrapper {
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
   }
 }
 
