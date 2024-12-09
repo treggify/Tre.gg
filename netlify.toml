@@ -3,10 +3,9 @@
   to = "/401.html"
   status = 401
   force = true
-  conditions = {Role = ["anonymous"]}
   
 [[headers]]
   for = "/*"
     [headers.values]
-    Basic-Auth = "treggify:treggify"
+    Basic-Auth = ":treggify"
   
