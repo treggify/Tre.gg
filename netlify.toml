@@ -2,8 +2,14 @@
   from = "/*"
   to = "/401.html"
   status = 401
-  force = false
+  force = true
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Basic-Auth = ":${SITE_PASSWORD}"
 
 [build]
-  command = "sed 's/SITE_PASSWORD/'\"$SITE_PASSWORD\"'/' _headers.template > _headers" 
+  command = "sed 's/SITE_PASSWORD/'\"$SITE_PASSWORD\"'/' _headers.template > public/_headers"
+  publish = "/"
   
