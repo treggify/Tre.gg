@@ -3,9 +3,13 @@
   to = "/401.html"
   status = 401
   force = true
-  
+
 [[headers]]
   for = "/*"
     [headers.values]
-    Basic-Auth = ":treggify"
+    Basic-Auth = ":${SITE_PASSWORD}"
+
+[build]
+  command = "sed 's/SITE_PASSWORD/'\"$SITE_PASSWORD\"'/' _headers.template > public/_headers"
+  publish = "/"
   
