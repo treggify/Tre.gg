@@ -1450,6 +1450,15 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     width: 100%;
   }
 
+  .fullimage.about {
+    background-position: 20%;
+    background-size: cover;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
   .fullimage.candid {
     flex-direction: row;
     height: 100%;
@@ -1498,11 +1507,11 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .patternbg {
     border-radius: 64px;
-    width: 95%;
+    width: 100%;
     min-width: 0;
     max-width: 100%;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .line {
@@ -1535,6 +1544,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     margin-right: 32px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .headerwrapper {
+    flex-flow: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
   }
 }
 
@@ -1577,7 +1593,11 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .fullimage.about {
+    background-position: 30%;
+    background-size: cover;
     height: 80vh;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .fullimage.padding {
@@ -2043,13 +2063,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .heading-6.error {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .form2 {
     box-shadow: none;
-    width: 100vw;
-    max-width: 100%;
+    width: 100%;
+    max-width: 420px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2121,9 +2141,13 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     justify-content: center;
     align-items: center;
     height: 100svh;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 0;
     display: flex;
+  }
+
+  .form-block-2 {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
