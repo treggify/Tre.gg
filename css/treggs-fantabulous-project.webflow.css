@@ -1880,9 +1880,12 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .fullimage.about {
+    background-position: 20%;
+    background-size: cover;
     max-height: 320px;
-    margin-top: -64px;
     margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .fullimage.first.notextbelow {
