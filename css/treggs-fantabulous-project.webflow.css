@@ -1121,9 +1121,8 @@ h3 {
   align-items: center;
   min-width: 620px;
   max-width: 100vw;
-  height: 100svh;
-  max-height: 960px;
-  margin: 32px;
+  height: 100%;
+  margin-bottom: 32px;
   padding: 64px 24px 0;
   display: flex;
   position: relative;
@@ -1426,8 +1425,9 @@ h3 {
 }
 
 .headerwrapper {
-  padding-top: 0;
-  padding-bottom: 0;
+  height: 100svh;
+  max-height: 960px;
+  padding: 32px;
 }
 
 html.w-mod-js [data-ix="load-in"], html.w-mod-js [data-ix="scroll-in"] {
@@ -1550,8 +1550,7 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   .headerwrapper {
     flex-flow: column;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px 24px 0;
     display: flex;
   }
 }
@@ -1793,8 +1792,9 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
     justify-content: center;
     align-items: center;
     height: 100svh;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    max-height: 100%;
+    padding-top: 24px;
+    padding-bottom: 0;
     display: flex;
   }
 }
