@@ -1639,7 +1639,8 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   }
 
   .heading.primarygreeting {
-    font-size: 64px;
+    font-size: 56px;
+    text-wrap: balance;
   }
 
   .footer {
@@ -1848,6 +1849,11 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
 
   #w-node-bcf58200-7376-74a9-7c77-4f64f2ba76c5-9c09db79 {
     grid-area: 3 / 1 / 4 / 2;
+  }
+  
+  .heading.primarygreeting {
+    font-size: 40px;
+    text-wrap: balance;
   }
 }
 

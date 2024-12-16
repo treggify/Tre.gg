@@ -157,11 +157,11 @@ const fragmentShader = `
         vec3 finalColor = backgroundColor;
         
         // Layer the blobs with reduced opacity
-        finalColor = mix(finalColor, blobColor1, blob1Mask * 0.5);
-        finalColor = mix(finalColor, blobColor2, blob2Mask * 0.4);
+        finalColor = mix(finalColor, blobColor1, blob1Mask * 0.75);  // Increase to 80% opacity
+        finalColor = mix(finalColor, blobColor2, blob2Mask * 0.75);  // Increase to 70% opacity
         
         // Add fine noise using background color to break up banding
-        float gradientNoise = snoise(uv * 40.0 + vec2(uSeed * 5.0)) * 0.015;
+        float gradientNoise = snoise(uv * 400.0 + vec2(uSeed * 5.0)) * .3;
         finalColor += backgroundColor * gradientNoise;
         
         gl_FragColor = vec4(finalColor, 1.0);
