@@ -181,7 +181,7 @@ h3 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   background-color: var(--87-black);
-  background-image: url('../images/TokyoStreetArt-2.JPG');
+  background-image: url('../images/TokyoStreetArt-2.webp');
   background-position: 50%;
   background-size: cover;
   grid-template-rows: auto auto;
@@ -264,7 +264,7 @@ h3 {
 
 .fullimage.about {
   border: 1px solid var(--white15);
-  background-image: url('../images/configtregg.jpg');
+  background-image: url('../images/configtregg.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 1400px;
@@ -489,7 +489,7 @@ h3 {
 .footer {
   border: 1px solid var(--dark-dark-blue);
   background-color: var(--black-2);
-  background-image: url('../images/newmast2.png');
+  background-image: url('../images/newmast2.webp');
   background-size: cover;
   border-radius: 80px;
   flex-direction: column;
@@ -624,7 +624,7 @@ h3 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   border: 1px solid var(--dark-slate-green);
-  background-image: url('../images/newmast2.png');
+  background-image: url('../images/newmast2.webp');
   background-position: 0 0;
   background-size: cover;
   border-radius: 64px;
@@ -637,7 +637,7 @@ h3 {
   grid-row-gap: 48px;
   border-color: var(--dark-slate-green);
   background-color: var(--black-2);
-  background-image: url('../images/newmast2.png');
+  background-image: url('../images/newmast2.webp');
   background-position: 0 0;
   background-size: cover;
   flex-flow: column;
@@ -647,7 +647,7 @@ h3 {
 }
 
 .bodyfixed.firstpar.callout.altbg {
-  background-image: url('../images/newmast.png');
+  background-image: url('../images/newmast.webp');
   background-position: 50%;
   background-size: cover;
 }
@@ -677,7 +677,7 @@ h3 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   border: 1px solid var(--dark-slate-green);
-  background-image: url('../images/newmast2.png');
+  background-image: url('../images/newmast2.webp');
   background-position: 0 0;
   background-size: cover;
   border-radius: 32px;
@@ -690,7 +690,7 @@ h3 {
   grid-row-gap: 48px;
   border-color: var(--dark-slate-green);
   background-color: var(--black-2);
-  background-image: url('../images/newmast2.png');
+  background-image: url('../images/newmast2.webp');
   background-position: 0 0;
   background-size: cover;
   flex-flow: column;
@@ -700,7 +700,7 @@ h3 {
 }
 
 .bodyfixed.lastpar.callout.altbg {
-  background-image: url('../images/newmast.png');
+  background-image: url('../images/newmast.webp');
   background-position: 50%;
   background-size: cover;
 }
@@ -1008,7 +1008,7 @@ h3 {
 
 .watch {
   cursor: pointer;
-  background-image: url('../images/Apple-Watch-Small---mockup.png');
+  background-image: url('../images/Apple-Watch-Small---mockup.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 260px;
@@ -1924,3 +1924,4 @@ html.w-mod-js [data-ix="user-stories-2"], html.w-mod-js [data-ix="close-watch"],
   font-style: normal;
   font-display: swap;
 }
+.h-weight-pin { font-weight: 400; }
